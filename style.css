@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+  background-image: url("https://images.pexels.com/photos/1562058/pexels-photo-1562058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: repeat;
+  background-size: auto;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+body .page{
+  background-color: #141414;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* Barre de navigation */
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  position:sticky;
+  top: 0;
+  background-color: #141414;
+  padding: 10px 0px;
+  z-index: 1;
+}
+nav .onglets{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 5px;
+}
+nav .onglets{
+  display:flex;
+  flex-wrap:wrap;
+  padding: 10px;
+}
+nav .onglets a {
+  margin-right: 20px;
+  cursor:pointer;
+  text-decoration: none;
+  color: white;
+}
+nav .onglets a:hover {
+    color: darkgoldenrod;
+}
+nav .buttons button{
+  margin-right: 10px;
+  padding: 13px 20px;
+  color: #fff;
+  border:none;
+  font-size: 15px;
+  cursor:pointer;
+  outline:none;
+}
+nav .buttons .register{
+  background-color: #f54266;
+}
+/* Fin de la barre de navigation*/
+
+/* Header */
+header{
+  margin-top: 40px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/1024px-Flag_of_Norway.svg.png');
+  background-repeat: no-repeat;
+  background-size: 500px 300px;
+  background-position: center;
+}
+header h1{
+  text-align:center;
+  font-size: 80px;
+  padding: 150px;
+  color: darkgoldenrod;
+  text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
+
+}
+/* Fin du header */
+
+hr {
+	color: #dddd;
+	width: 60%;
+}
+
+/* Partie article*/
+article .contenu img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 500px;
+    transition: transform .2s;
+}
+article .contenu img:hover {
+    transform: scale(1.05);
+}
+article .contenu .présentation {
+  background-color: brown;
+  padding: 30px;
+}
+article .contenu .géographie {
+  background-color:darkblue;
+  padding: 30px;
+}
+article .contenu .climat {
+  background-color:white;
+  padding: 30px;
+  color: black;
+}
+article .contenu .démographie {
+  background-color:darkgoldenrod;
+  padding: 30px;
+}
+article .contenu .paysages {
+  background-color:crimson;
+  padding: 30px;
+}
+article .contenu .ressources {
+  padding: 30px;
+}
+
+article .contenu .vidéos iframe {
+  height: 300px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+article .contenu .vidéos p {
+    font-size: 20px;
+    text-align: center;
+}
+article .contenu .enregistrement audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+article .contenu .enregistrement p {
+    font-size: 20px;
+    text-align: center;
+}
+/* Fin de la partie article*/
+
+
+/* Footer */
+footer{
+    background-color: #1a1a1a;
+    padding: 25px 100px;
+    color:#828282;
+  }
+  footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+/* Fin du footer */
+
+
+
+
